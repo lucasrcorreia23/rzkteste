@@ -173,7 +173,7 @@ const Cotacao = () => {
   return (
    <div className="container">
       <section>
-        <h1 className="text-brandgreen text-center text-4xl py-10 border px-10 lg:px-40 mb-10 bg-slate-50 rounded-lg font-medium shadow-sm">
+        <h1 className="text-brandgreen text-center text-xl lg:text-4xl lg:py-10 py-5 border px-10 lg:px-40 mb-10 bg-slate-50 rounded-lg font-medium shadow-sm">
           Gráfico de Cotação de Moedas Estrangeiras
         </h1>
       </section>

@@ -209,7 +209,7 @@ const Cotacao = () => {
             />
           </li>
         </ul>
-        <div className="lg:w-full py-10">
+        <div className="lg:w-full lg:py-0 py-10">
           <Line className="lg:w-full" data={chartDataFormatted} options={chartOptions} />
         </div>
       </section>

@@ -192,17 +192,17 @@ const Cotacao = () => {
           </li>
           <li className="pb-3  flex-col flex flex-start">
             <label className=" w-full lg:w-auto font-bold ">
-              Data Inicial:
+              Selecione a data inicial:
             </label>
-            <DatePicker
+            <DatePicker 
               className="w-max mx-auto"
               selected={startDate}
               onChange={(date) => setStartDate(date)}
             />
           </li>
           <li className="pb-3 flex-col flex flex-start">
-            <label className=" font-bold">Data Final:</label>
-            <DatePicker
+            <label className=" font-bold"> Selecione a data final:</label>
+            <DatePicker 
               className="w-max mx-auto"
               selected={endDate}
               onChange={(date) => setEndDate(date)}
